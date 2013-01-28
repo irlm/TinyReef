@@ -1,0 +1,7 @@
+echo "Generating java class..."
+mig java -target=null -java-classname=RadioCountToLeds RadioCountToLeds.h radio_count_msg -o RadioCountToLeds.java
+
+echo "Compiling..."
+javac RadioCountToLeds.java
+
+echo "Done."

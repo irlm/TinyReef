@@ -1,0 +1,16 @@
+#ifndef TINY_REEF_MEMORY_H
+#define TINY_REEF_MEMORY_H
+
+#define WORD_LENGTH	4
+#define WORD_OFFSET 3
+#define HALF_WORD_LENGTH 2
+#define HALF_WORD_OFFSET 1
+
+#define SHIFT_BYTE(p) ((WORD_OFFSET-p) << WORD_OFFSET)
+
+#define MASK(p) (0xFFFFFFFF >> SHIFT_BYTE(p))
+
+#define MIN_VALUE -2147483647
+#define MAX_VALUE 2147483647
+
+#endif /* TINY_REEF_MEMORY_H */

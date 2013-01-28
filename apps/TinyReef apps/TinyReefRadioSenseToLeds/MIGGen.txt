@@ -1,0 +1,1 @@
+mig java -target=null -java-classname=RadioSenseToLeds RadioSenseToLeds.h radio_sense_msg -o RadioSenseToLeds.java

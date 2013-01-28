@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting>
+<target>project/Target micaz</target>
+<output>../RemoteEditorTinyReef/src/br/ufpe/cin/tinyreef/TinyReefPacket.java</output>
+<tools current="java">
+<tool id="java">
+<option id="-java-classname">br.ufpe.cin.tinyreef.TinyReefPacket</option>
+</tool>
+</tools>
+<format>types/TinyReefMessage.h</format>
+<type>tinyReefPacket</type>
+</setting>

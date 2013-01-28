@@ -1,0 +1,1 @@
+mig java -target=null -java-classname=Tests Tests.h test_msg_t -o Tests.java

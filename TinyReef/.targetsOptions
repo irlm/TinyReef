@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<buildTargets>
+<default version="4">
+<default>false</default>
+<project/>
+<target>micaz</target>
+<make-extras/>
+<includes/>
+<excludes>
+<exclude>.*\.svn.*</exclude>
+</excludes>
+<typedefs/>
+<macros/>
+<boards>
+<board>basicsb</board>
+</boards>
+<no-std-incl>false</no-std-incl>
+<component/>
+<component-file>/TinyReef/src/Components/TinyReefVMC.nc</component-file>
+<include-last-build>true</include-last-build>
+<include-env-default-paths>true</include-env-default-paths>
+<environment_variables/>
+</default>
+<custom>
+<target loop="false" name="Target micaz" time="0.0" version="4">
+<default>true</default>
+<project use-custom="true"/>
+<target use-custom="true">micaz</target>
+<make-extras use-custom="true" use-default="false">
+<extra name="safe"/>
+<extra name="stack-check"/>
+<extra name="verbose"/>
+</make-extras>
+<includes use-custom="true" use-default="false"/>
+<excludes use-custom="true" use-default="false">
+<exclude>.*\.svn.*</exclude>
+</excludes>
+<typedefs use-custom="true" use-default="false"/>
+<macros use-custom="true" use-default="false">
+<macro content="1" name="COMPILE_TOSSIM" ncc="true" yeti="true"/>
+</macros>
+<boards use-custom="true" use-default="false"/>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="true">Components/TinyReefVMC</component>
+<component-file use-custom="true">/TinyReef/src/Components/TinyReefVMC.nc</component-file>
+<include-last-build use-custom="true">true</include-last-build>
+<include-env-default-paths use-custom="true">true</include-env-default-paths>
+<environment_variables use-custom="true" use-default="false"/>
+</target>
+<target loop="false" name="micaz sim" time="2.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="true">micaz</target>
+<make-extras use-custom="true" use-default="false">
+<extra name="safe"/>
+<extra name="sim"/>
+<extra name="stack-check"/>
+</make-extras>
+<includes use-custom="true" use-default="false"/>
+<excludes use-custom="true" use-default="false">
+<exclude>.*\.svn.*</exclude>
+</excludes>
+<typedefs use-custom="true" use-default="false"/>
+<macros use-custom="true" use-default="false">
+<macro content="0" name="COMPILE_TOSSIM" ncc="true" yeti="true"/>
+<macro content="0" name="COMPILE_WITH_TEST" ncc="true" yeti="true"/>
+</macros>
+<boards use-custom="true" use-default="false">
+<board>mts300</board>
+</boards>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="true">Components/TinyReefVMC</component>
+<component-file use-custom="true">/TinyReef/src/Components/TinyReefVMC.nc</component-file>
+<include-last-build use-custom="true">true</include-last-build>
+<include-env-default-paths use-custom="true">true</include-env-default-paths>
+<environment_variables use-custom="true" use-default="false"/>
+</target>
+<target loop="false" name="Test MOV" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="true">micaz</target>
+<make-extras use-custom="true" use-default="true">
+<extra name="sim"/>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true"/>
+<boards use-custom="true" use-default="true"/>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="true">tests/TinyReefTestMOVBytecodeC</component>
+<component-file use-custom="true">/TinyReef/src/tests/TinyReefTestMOVBytecodeC.nc</component-file>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="false"/>
+</target>
+<target loop="false" name="Test Arithmetic" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="true">micaz</target>
+<make-extras use-custom="true" use-default="true">
+<extra name="sim"/>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true"/>
+<boards use-custom="true" use-default="true"/>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="true">tests/TinyReefTestArithmeticC</component>
+<component-file use-custom="true">/TinyReef/src/tests/TinyReefTestArithmeticC.nc</component-file>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="false"/>
+</target>
+<target loop="false" name="doc" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="false"/>
+<make-extras use-custom="true" use-default="true">
+<extra name="docs"/>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true"/>
+<boards use-custom="true" use-default="true"/>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="false"/>
+<component-file use-custom="false"/>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="true"/>
+</target>
+<target loop="false" name="teste" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="false"/>
+<make-extras use-custom="true" use-default="true">
+<extra name="install">
+<parameter ask="false" name="Mote Id">0</parameter>
+</extra>
+<extra name="mib510">
+<parameter ask="false" name="&lt;dev&gt;">/dev/ttyUSB0</parameter>
+</extra>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true"/>
+<boards use-custom="true" use-default="true"/>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="false"/>
+<component-file use-custom="true">/TinyReef/src/Components/TinyReefVMC.nc</component-file>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="true"/>
+</target>
+<target loop="false" name="mica2 install" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="true">mica2</target>
+<make-extras use-custom="true" use-default="true">
+<extra name="install">
+<parameter ask="false" name="Mote Id">1</parameter>
+</extra>
+<extra name="mib510">
+<parameter ask="true" name="&lt;dev&gt;">/dev/ttyUSB2</parameter>
+</extra>
+<extra name="safe"/>
+<extra name="stack-check"/>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true">
+<macro content="0" name="COMPILE_WITH_TEST" ncc="true" yeti="true"/>
+<macro content="0" name="COMPILE_TOSSIM" ncc="true" yeti="true"/>
+<macro content="0" name="SENSORBOARD_MTS400" ncc="false" yeti="true"/>
+<macro content="1" name="SENSORBOARD_MTS300" ncc="true" yeti="true"/>
+</macros>
+<boards use-custom="true" use-default="true">
+<board>mts300</board>
+</boards>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="false"/>
+<component-file use-custom="false"/>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="true">
+<variable key="CFLAGS">\"-DCC1K_DEF_FREQ=916534800"</variable>
+</environment_variables>
+</target>
+<target loop="false" name="micaz install" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="false"/>
+<make-extras use-custom="true" use-default="true">
+<extra name="install">
+<parameter ask="true" name="Mote Id">1</parameter>
+</extra>
+<extra name="mib510">
+<parameter ask="true" name="&lt;dev&gt;">/dev/ttyUSB2</parameter>
+</extra>
+<extra name="safe"/>
+<extra name="stack-check"/>
+<extra name="wiring"/>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true">
+<macro content="0" name="COMPILE_TOSSIM" ncc="true" yeti="true"/>
+<macro content="0" name="COMPILE_WITH_TEST" ncc="true" yeti="true"/>
+</macros>
+<boards use-custom="true" use-default="true"/>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="false"/>
+<component-file use-custom="false"/>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="true"/>
+</target>
+<target loop="false" name="iris install" time="0.0" version="4">
+<default>false</default>
+<project use-custom="true"/>
+<target use-custom="true">iris</target>
+<make-extras use-custom="true" use-default="true">
+<extra name="install">
+<parameter ask="true" name="Mote Id">1</parameter>
+</extra>
+<extra name="mib510">
+<parameter ask="true" name="&lt;dev&gt;">/dev/ttyUSB0</parameter>
+</extra>
+<extra name="safe"/>
+</make-extras>
+<includes use-custom="true" use-default="true"/>
+<excludes use-custom="true" use-default="true"/>
+<typedefs use-custom="true" use-default="true"/>
+<macros use-custom="true" use-default="true">
+<macro content="0" name="COMPILE_TOSSIM" ncc="true" yeti="true"/>
+<macro content="0" name="COMPILE_WITH_TEST" ncc="false" yeti="true"/>
+<macro content="0" name="SENSORBOARD_MTS300" ncc="false" yeti="true"/>
+</macros>
+<boards use-custom="true" use-default="true">
+<board>mts300</board>
+</boards>
+<no-std-incl use-custom="true">false</no-std-incl>
+<component use-custom="false"/>
+<component-file use-custom="false"/>
+<include-last-build use-custom="true">false</include-last-build>
+<include-env-default-paths use-custom="true">false</include-env-default-paths>
+<environment_variables use-custom="true" use-default="true"/>
+</target>
+</custom>
+<client-data>
+<data key="MakeOptionsView.expansionState">true</data>
+</client-data>
+</buildTargets>
