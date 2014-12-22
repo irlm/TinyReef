@@ -10,7 +10,7 @@ sensors node that will be interpreted by TinyReef.
 
 Install:
 
-install Tinyos
+Install Tinyos
 
 The AVR GCC Toolchain
 (http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain)
@@ -20,3 +20,8 @@ Debian and Ubuntu
 http://tinyos.stanford.edu/tinyos-wiki/index.php/Installing_From_Source
 
 For TOSSIM remember the python dev files (sudo apt-get install python-dev)
+
+Install Eclipse
+
+Install Yeti 2 eclipse Plugin
+ http://tos-ide.ethz.ch/wiki/pmwiki.php?n=Site.Installation
